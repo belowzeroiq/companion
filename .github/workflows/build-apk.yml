@@ -1,11 +1,10 @@
 name: Build Companion APK
 
 on:
-  push:
-    workflow_dispatch:
+  workflow_dispatch:
 
-    jobs:
-      build:
+jobs:
+        build:
           runs-on: ubuntu-latest
 
           steps:
